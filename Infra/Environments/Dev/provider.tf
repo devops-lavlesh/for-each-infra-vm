@@ -5,8 +5,9 @@ terraform {
       version = "4.33.0"
     }
   }
+  required_version = "1.11.0"
 }
 provider "azurerm" {
   features {}
-  subscription_id = "1ecb1540-18db-4ab8-9eac-659a71d4a5f7"
+  subscription_id = "b3b6b7ed-0b15-49ca-b3ce-092e07ca3fef"
 }

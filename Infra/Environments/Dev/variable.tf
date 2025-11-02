@@ -1,14 +1,28 @@
-variable "rgs" {}
+variable "rgs" {
+    type = map(any)
+}
 
-variable "vnets" {}
+variable "vnets" {
+    type = map(any)
+}
 
-variable "subnets" {}
+variable "subnets" {
+    type = map(any)
+}
 
 
-variable "public_ips" {}
+variable "public_ips" {
+    type = map(any)
+}
 
-variable "virtual_machine_config" {}
+variable "virtual_machine_config" {
+    type = map(any)
+}
 
-variable "key_vaults" {}
+variable "key_vaults" {
+    type = map(any)
+}
 
-variable "secrets" {}
+variable "secrets" {
+    type = map(any)
+}
